@@ -1,0 +1,66 @@
+#body{
+    margin: 0 auto;
+}
+.navbar-brand img{width: 100px;}
+
+.carousel-item{opacity: .8;}
+
+header{
+    text-decoration:solid;
+}
+
+.producto{
+    background-color: gray;
+    color: coral;
+    text-align: center;
+    padding: 1rem;
+}
+.productos{
+    background-color: black;
+    color: white;
+    text-decoration:solid;
+}
+.productos h3{
+    color: chocolate;
+}
+.cDi{
+    color: coral;
+    border-color: coral;
+}
+.cDi2{
+    color: rgb(138, 69, 19);
+    border-color: rgb(138, 69, 19);
+}
+.producto4 button{
+    color: rgb(138, 69, 19);
+    border-color: rgb(138, 69, 19);
+    border-radius: 0;
+    margin: 5px;
+}
+
+section article{
+    transition: box-shadow 0.5s ease;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    cursor: auto;
+    text-align: center;
+}
+
+section article:hover{
+    box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,3);
+}
+
+footer{
+    padding: 20px;
+    background-color: black;
+}
+footer a{
+    transition: color 0.3s ease;
+    color: #fff;
+    text-decoration: none;
+}
+footer a:hover{
+    color: cornflowerblue;
+}
+
+@media only screen and (max-width: 600px) and (min-width: 400px)  {}
